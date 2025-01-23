@@ -41,3 +41,23 @@ body::-webkit-scrollbar-track-piece {
     border: none;
     box-shadow: none;
 }
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.us_picture {
+    & img {
+        width: 71%;
+        height: auto;
+        object-fit: contain;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
