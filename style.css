@@ -61,3 +61,49 @@ body::-webkit-scrollbar-track-piece {
     border-radius: 50%;
     overflow: hidden;
 }
+
+/* Carousel */
+
+.carousel {
+    overflow: hidden;
+    width: 80%;
+    max-width: 1920px;
+    /* border: 2px solid #ccc;
+    border-radius: 10px; */
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+    object-fit: cover;
+    overflow: visible;
+}
+
+.img {
+    aspect-ratio: 1/1;
+    height: auto;
+    width: 125px;
+    /* width: calc(300% / 17); */
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+    flex-shrink: 0;
+}
+
+.img .diesco {
+    width: 100px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Carousel */
