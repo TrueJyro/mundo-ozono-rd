@@ -74,7 +74,7 @@ body::-webkit-scrollbar-track-piece {
 
 .carousel-track {
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 40s linear infinite;
 }
 
 .carousel-track img {
@@ -107,3 +107,34 @@ body::-webkit-scrollbar-track-piece {
 }
 
 /* Carousel */
+
+/* Scroll */
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Inicialmente oculto */
+    /*     background-color: #007bff;
+    color: white; */
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    width: 64px;
+}
+
+.scroll-to-top img {
+    aspect-ratio: 1/1;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .scroll-to-top:hover {
+    background-color: #0056b3;
+} */
+
+/* Scroll */
